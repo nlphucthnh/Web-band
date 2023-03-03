@@ -1,0 +1,212 @@
+
+@media (min-width: 768px ) and (max-width: 1024px ) {
+    #content .Content-section {
+        width:680px ;
+        max-width: 100%;
+    }
+
+    .name {
+        float: left;
+    }
+    
+    .email {
+        float: left;
+    }
+    
+    .message {
+        margin-top: 8px;
+        width: 100%;
+    }
+    
+    
+    
+    .form-control {
+        padding: 8px 3px;
+        border: 1px solid #ccc;
+    }
+    
+    .contact-tb {
+        overflow: hidden;
+        width: 100%;
+        padding-top: 32px;
+    }
+
+    .contact-tb .right {
+        float: right;
+    }
+
+    .contact-tb .lelf {
+        width: 40%;
+    }
+    
+    .contact-tb p {
+        line-height: 1.6;
+    }
+    
+    .contact-tb i {
+        margin-right: 15px;
+    }
+    
+    
+    .send {
+        margin: 16px 0;
+        padding: 8px 16px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+        float: right;
+    }
+
+
+    #fooder {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 767px ) {
+    
+    #nav > li {
+            display: block  !important;
+    }
+
+    #nav .search {
+        display: none;
+    }
+
+    #nav .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        float: right;
+        padding: 17px 25px;
+    }
+
+    #nav .menu:hover {
+        background-color: #eee;
+        color: #000;
+    }
+
+    #nav> li:hover > a {
+        width: 100%;
+    }
+
+    #nav > li:first-child {
+        display: inline-block !important;
+    }
+    .Content-section {
+        padding: 64px 0 !important;
+        width: 100%;
+    }
+
+    #slider .text-title {
+        display: none;
+    }
+
+    #content .Content-section {
+        overflow: hidden;
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #content .Content-section .about-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #content .Content-section .member-list {
+        width: 100%;
+    }
+
+    #content .Content-section .member-part {
+        clear: left;
+        width: 100%;
+    }
+
+    #tour {
+        overflow: hidden;
+        width: 100%;
+    }
+    #tour .tickets-list {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #tour .place-list {
+        width: 100%;
+        padding: 10px 8px;
+    }
+
+    #tour .place-item {
+        clear: left;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    #fooder {
+        width: 100%;
+    }
+
+    .lelf {
+        width: 100%;
+    }
+
+    #lienHe {
+        overflow: hidden;
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    .right {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .inputdouble {
+        width: 100%;
+    }
+
+    .name{
+        width: 100%;
+    }
+
+
+    .emal{
+        width: 100%;
+    }
+
+    .mess {
+        width: 100%;
+    }
+
+    #name {
+        clear: left;
+        margin: 5px 0;
+        width: 90%;
+        padding: 8px 10px;
+    }
+    
+    #email {
+        clear: left;
+        margin: 5px 0;
+        width: 90%;
+        padding: 8px 10px;
+    }
+    
+    #message {
+        padding: 8px 0px 8px 10px;
+        margin: 5px auto;
+        width: 90%;
+    }
+    
+    
+    
+}

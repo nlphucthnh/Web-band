@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.text-white {
+    color: white;
+}
+
+.row {
+    overflow: hidden;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    overflow: hidden;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    overflow: hidden;
+    width: 100%;
+}
+
+.col-half {
+    
+    width: 50%;
+}
+
+.col-third {
+    overflow: hidden;
+    width: 33.3333%;
+}
+
+
+
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+#header #nav {
+    width: auto;
+    position: relative;
+}
+
+#header #nav> li{
+    display: inline-block;
+}
+
+#header #nav li {
+   
+    position: relative;
+}
+#nav>li> a {
+    text-transform: uppercase;
+}
+
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav> li:hover > a {
+    background-color: rgb(179, 179, 179);
+    color: #000;
+}
+
+#nav .sub-nav  {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px grey ;
+    display: none;
+    height: 115px;
+    width: 160px;
+}
+
+#nav .sub-nav li {
+    list-style: none;
+    height: 38.4px;
+}
+
+
+#nav .sub-nav li a {
+    color: #000;
+   padding-left: 16px;
+}
+
+#nav .sub-nav li:hover  {
+    background-color: rgb(179, 179, 179);
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav .search {
+    color: #fff;
+    float: right;
+    padding: 17px 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#nav .search:hover {
+    background-color: #f44336;
+}
+
+
+
+#slider {
+    position: relative;
+    margin-top: 50px;
+    padding-top: 50%;
+    background: url(./img/chicago.jpg) top center / cover no-repeat;
+}
+
+#slider .text-title {
+    position: absolute;
+    bottom: 0;
+    padding: 32px 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+#slider .text-title h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400 ;
+}
+
+#slider .text-title p {
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+
+#content .Content-section {
+    width: 800px ;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 16px;
+
+}
+
+#content .heading-section {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#content .heading-sub-section {
+    margin: 15px 0;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(105, 105, 105, 0.842);
+}
+
+#content .about-text {
+    text-align: justify;
+    line-height: 1.5;
+}
+    
+#content .member-list {
+    overflow: hidden;
+    padding: 32px 0;
+    text-align: center;
+    
+}
+
+#content .member-part {
+   width: calc(100%/3);
+   float: left;
+}
+
+#content .member-name {
+    margin: 15px 0;
+}
+
+#content .member-part img {
+    border-radius: 4px;
+    width: 60%;
+    margin-bottom: 16px;
+}
+
+#content .tour-section {
+    background-color: #000;
+}
+
+#content .tickets-list {
+    background-color: #fff;
+    font-size: 15px;
+    color: #757575;
+}
+
+#content .tickets-list li {
+    padding: 8px 16px;
+    list-style: none;
+    border-bottom: 1px solid #7575753d;
+}
+
+#content .sold-out {
+    background-color: #f44336;
+    margin-left: 12px;
+    padding: 2px 8px 1px;
+    color: #fff;
+}
+
+#content .quatity {
+    float: right;
+    background-color: #000;
+    padding: 3px 9px;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-right: 15px;
+}
+
+.place-list{
+    overflow: hidden;
+    margin: 32px -8px 32px;
+}
+.place-item{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.place-item img {
+    width: 100%;
+    display: block;
+}
+
+.place-item img:hover {
+    opacity: 0.6;
+} 
+
+
+.place-body{
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 16px;
+    font-size: 15px;
+}
+.place-heading{
+    margin: 15px 0;
+    font-size: 15px;
+}
+.place-date{
+    margin: 15px 0;
+    opacity: 0.6;
+}
+.place-logan{
+    margin: 15px 0;
+}
+.place-btn{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    margin-bottom: 16px;
+}
+
+
+#name {
+    float: left;
+}
+
+#email {
+    float: left;
+}
+
+.mess {
+    width: 100%;
+}
+
+#message {
+    margin-top: 8px;
+    width: 94%;
+}
+
+
+
+.form-control {
+    padding: 8px 3px;
+    border: 1px solid #ccc;
+}
+
+.contact-tb {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 32px;
+}
+
+
+.contact-tb p {
+    line-height: 1.6;
+}
+
+.contact-tb i {
+    margin-right: 15px;
+}
+
+
+.send {
+    margin: 16px 0;
+    padding: 8px 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    float: right;
+}
+
+
+#map img {
+    width: 100%;
+}
+
+#fooder {
+    text-align: center;
+    width: 100%;
+    margin: 64px auto;
+}
+
+#fooder .icon a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#fooder .icon i {
+    color: #757575;
+}
+
+#fooder .gg {
+    color: #757575;
+    padding: 10px 0;
+}
+
+#fooder .gg a {
+    color: #757575;
+    
+}
+
+
+
+
+
